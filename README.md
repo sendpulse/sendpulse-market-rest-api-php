@@ -38,9 +38,6 @@ use Sendpulse\MarketRestApi\Client;
 use Sendpulse\MarketRestApi\Storage\FileStorage;
 use Sendpulse\MarketRestApi\Exception\ClientException;
 
-$appId = '9b0f2f98-d75f-4562-887e-2b79bc8a1eee';
-$appSecret = '0d028163-9c84-40e4-8508-f4927badf735';
-$requestParamCode = '5869d2b87b132aa1372242f223e5381e'; //get code into request
 
 $appId = '9b0f2f98-d75f-4562-887e-2b79bc8a1eee';
 $appSecret = '0d028163-9c84-40e4-8508-f4927badf735';
