@@ -1,0 +1,28 @@
+{
+    "name": "sendpulse/market-rest-api",
+    "description": "Sendpulse Market REST API client library",
+    "keywords": [
+        "sendpulse",
+        "market",
+        "rest",
+        "api"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sendpulse\\MarketRestApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgeniy Bilovol",
+            "email": "e.bilovol@sendpulse.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-memcache": "*"
+    }
+}
