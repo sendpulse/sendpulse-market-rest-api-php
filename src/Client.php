@@ -222,7 +222,7 @@ class Client implements ClientInterface
             'client_id' => $this->clientId,
             'client_secret' => $this->clientSecret,
             'grant_type' => self::GRANT_TYPE_CLIENT_CREDENTIALS
-        ], false)['access_token'] ?? null;
+        ], false);
 
         if (empty($response['access_token'])) {
             return null;
